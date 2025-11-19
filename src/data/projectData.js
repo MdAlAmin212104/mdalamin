@@ -1,22 +1,25 @@
 const data = [
   {
-    id: 1,
-    title: "Product Note",
-    about:
-      "The homepage features a navbar, advertisement, user navbar, latest reviews, and a footer, with routes for properties, dashboard, and login. Logged-in users can easily access and interact with properties, add reviews, manage their dashboard, wishlist, and make purchases. Agents add properties, handle user requests, and monitor sold properties. Administrators oversee reviews, user accounts, and property requests, making this project a comprehensive learning experience in web development.",
-    tech: "React, Node js, Express js, Tailwind, Material Ui, Firebase, Jwt",
-    img: "Product Note.webp",
-    github: "https://github.com/MdAlAmin212104/product-note",
-  },
+  id: 1,
+  title: "Product Note (app)",
+  about: "This app allows merchants to create separate product notes for each of their products, helping them track issues, improvements, and important reminders. Merchants can add, update, or delete notes, making product management more organized and efficient. The dashboard provides a clear overview of how many notes have been created, how many products have notes, and overall activity insights.",
+  about1: "This tool helps merchants understand product performance and plan improvements more effectively.",
+  tech: "React, React Router, Polaris Web Components, GraphQL, Metafields, TypeScript, Shopify Admin Actions, Shopify Admin Blocks",
+  img: "Product Note.webp",
+  github: "https://github.com/MdAlAmin212104/product-note",
+},
   {
-    id: 2,
-    title: "Qr Code Genarator",
-    about:
-      "The homepage showcases a banner, navbar, about us, brands, happy customer section, FAQs, and a footer. The navbar facilitates navigation with options like brands, add product, cart, FAQ, register, and user-related features. Brands section displays 6 brand types; clicking a brand card directs users to the brands products page with a slider and selected brand products. Products are presented in cards on the products page, with buttons for details and updates. User interactions like product updates and cart additions prompt login or registration. The my cart page displays added products with a delete option for each.",
-    tech: "React, Tailwind, Firebase",
-    img: "qr-code.webp",
-    github: "https://github.com/MdAlAmin212104/qr-code",
-  },
+  id: 2,
+  title: "QR Code Generator (app)",
+  about:
+    "This application enables merchants to generate individual QR codes for their products. Each QR code is linked directly to the product’s checkout page, allowing customers to scan and purchase instantly. This feature helps merchants improve conversion rates, track product-wise performance, and simplify the buying process for users.",
+  about1:
+    "Merchants can create, manage, and organize QR codes for different products, ensuring a smooth and fast shopping experience. When a customer scans the QR code, they are automatically redirected to the exact product checkout page, making the purchasing journey more efficient and boosting merchant sales insights.",
+  tech: "React, React Router, Polaris Web Components, GraphQL, Metafields, TypeScript, Shopify Admin Actions, Shopify Admin Blocks",
+  img: "qr-code.webp",
+  github: "https://github.com/MdAlAmin212104/qr-code",
+},
+
   {
     id: 3,
     title: "The Fairbanks Company",
