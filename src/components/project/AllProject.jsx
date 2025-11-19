@@ -70,9 +70,11 @@ const AllProject = () => {
                 >
                   <FaExternalLinkAlt className=" hover:text-primary text-primary" />
                 </a>
-                <a target="blank" href={project?.github} className="font-bold">
-                  <FaGithub className=" hover:text-primary text-primary" />
-                </a>
+                {project?.github && 
+                  <a target="blank" href={project?.github} className="font-bold">
+                    <FaGithub className=" hover:text-primary text-primary" />
+                  </a>
+                } 
               </div>
             </div>
           </motion.div>

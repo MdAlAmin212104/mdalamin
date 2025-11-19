@@ -9,7 +9,7 @@ const Resume = () => {
       <Title title={"Resume"} />
       <Experience />
       <Edu />
-      <SkillPercent />
+      {/* <SkillPercent /> */}
     </div>
   );
 };

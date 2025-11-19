@@ -49,18 +49,24 @@ const SingleProject = ({ projectId, onClose }) => {
                 <span>Live Url</span>
                 <FaExternalLinkAlt className="icon text-sm text-primary" />
               </a>
-              <a
-                target="blank"
-                href={project?.github}
-                className="project-link text-sm"
-              >
-                <span>Code</span>{" "}
-                <FaGithub className="icon text-sm text-primary" />
-              </a>
+              {project?.github && 
+                <a
+                  target="blank"
+                  href={project?.github}
+                  className="project-link text-sm"
+                >
+                  <span>Code</span>{" "}
+                  <FaGithub className="icon text-sm text-primary" />
+                </a>
+              }
             </div>
             <p>
               <strong className="text-primary">Details:</strong>{" "}
               {project?.about}
+            </p>
+            <p>
+              <strong className="text-primary"></strong>{" "}
+              {project?.about1}
             </p>
             <p>
               <strong className="text-primary">Technologies:</strong>{" "}
