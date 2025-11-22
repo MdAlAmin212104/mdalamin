@@ -105,7 +105,7 @@ const Experience = () => {
         target="blank"
         className=" absolute top-0 right-0 "
         href={
-          "https://drive.google.com/file/d/1DKQdPCZcIyLIU3MQx_6podjrva2IbBHi/view?usp=drive_link"
+          "https://drive.google.com/file/d/1ZLJug6S_oLNa9cTiVwb13Qz0UECa7BEq/view?usp=sharing"
         }
       >
         <motion.button

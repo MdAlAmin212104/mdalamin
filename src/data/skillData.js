@@ -7,6 +7,7 @@ const shopify = [
   { id: 6, img: "react-router.svg", name: "React Router" },
   { id: 7, img: "polaris.png", name: "Polaris Web Co." },
   { id: 8, img: "remix-light.png", name: "Remix" },
+  { id: 9, img: "webhook.png", name: "Webhook" },
 ];
 
 const client = [
@@ -41,7 +42,7 @@ const Tools = [
   { id: 2, img: "github.png", name: "GitHub" },
   { id: 3, img: "gitbash.svg", name: "Git Bash" },
   { id: 4, img: "npm.webp", name: "npm" },
-  { id: 5, img: "yarn.webp", name: "Yarn" },
+  { id: 5, img: "yarn.png", name: "Yarn" },
   { id: 6, img: "chrome-devtools.webp", name: "Chrome DevTools" },
   { id: 7, img: "vscode.png", name: "VS Code" },
 
