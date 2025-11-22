@@ -69,6 +69,10 @@ const SingleProject = ({ projectId, onClose }) => {
               {project?.about1}
             </p>
             <p>
+              <strong className="text-primary"></strong>{" "}
+              {project?.about1}
+            </p>
+            <p>
               <strong className="text-primary">Technologies:</strong>{" "}
               {project?.tech}
             </p>
