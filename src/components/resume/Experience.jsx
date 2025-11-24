@@ -102,11 +102,9 @@ const Experience = () => {
         </div>
       </div>
       <a
-        target="blank"
         className=" absolute top-0 right-0 "
-        href={
-          "https://drive.google.com/file/d/1ZLJug6S_oLNa9cTiVwb13Qz0UECa7BEq/view?usp=sharing"
-        }
+        href="https://drive.google.com/uc?export=download&id=1G5VEaIYfCVZs3IgI4SBm9TvHFWPUQLNg"
+        download
       >
         <motion.button
           whileTap={{ scale: 0.5 }}
