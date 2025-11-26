@@ -48,7 +48,7 @@ const data = [
     about1: "This project focused on creating a sleek, elegant, and modern storefront that reflects the sophistication of the Eichholtz brand. I designed the site with a clean layout, refined typography, and a premium shopping experience that highlights each product’s quality, detail, and European-inspired aesthetics.",
     img: "Eichholtz Long Island.png",
     tech: "Shopify, Liquid, Schema, JavaScript, CSS3, HTML5, E-commerce",
-    liveUrl: "https://music-amplitudein.netlify.app",
+    liveUrl: "https://eichholtzlongisland.com/",
   },
   {
     id: 6,
