@@ -21,7 +21,7 @@ const ContactInfo = () => {
             <IoMdMailOpen className=" text-xl font-bold text-primary" />
           </div>
           <div>
-            <h5 className="text-[12px] text-[#d6d6d6b2]">EMAIL</h5>
+            <h5 className="text-[12px] text-primary">EMAIL</h5>
             <h4 className="text-[14px] ">
               <a href="mailto:mdalamin212104@gmail.com">
                 mdalamin212104<br></br>@gmail.com
@@ -34,10 +34,16 @@ const ContactInfo = () => {
             <MdOutlinePhoneIphone className=" text-xl font-bold text-primary" />
           </div>
           <div>
-            <h5 className="text-[12px] text-[#d6d6d6b2]">PHONE</h5>
+            <h5 className="text-[12px] text-primary">PHONE</h5>
             <h4 className="text-[14px]">
-              <a href="tel:+8801516569309">+880 1516-569309</a><br/>
-              <a href="tel:+8801707691162">+880 1707-691162</a>
+              <a href="tel:+8801516569309" aria-label="Call +880 1516 569309">
+                +880 1516-569309
+              </a>
+              <br></br>
+
+              <a href="tel:+8801707691162" aria-label="Call +880 1707 691162">
+                +880 1707-691162
+              </a>
             </h4>
           </div>
         </div>
@@ -46,7 +52,7 @@ const ContactInfo = () => {
             <FaRegCalendarAlt className=" text-xl font-bold text-primary" />
           </div>
           <div>
-            <h5 className="text-[12px] text-[#d6d6d6b2]">EXPERIENCE</h5>
+            <h5 className="text-[12px] text-primary">EXPERIENCE</h5>
             <h4 className="text-[15px]">1.5+ years</h4>
           </div>
         </div>
@@ -55,7 +61,7 @@ const ContactInfo = () => {
             <MdOutlineLocationOn className=" text-xl font-bold text-primary" />
           </div>
           <div>
-            <h5 className="text-[12px] text-[#d6d6d6b2]">LOCATION</h5>
+            <h5 className="text-[12px] text-primary">LOCATION</h5>
             <h4 className="text-[15px]">Banasree, Rampura, BD</h4>
           </div>
         </div>

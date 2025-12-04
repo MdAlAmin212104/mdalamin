@@ -16,8 +16,8 @@ const Doing = () => {
             <SiShopify className="text-4xl text-primary" />
           </div>
           <div>
-            <h2 className="md:text-lg font-bold">Shopify App Development</h2>
-            <p className="text-[15px] pt-1">
+            <h2 className="md:text-xl font-bold text-primary">Shopify App Development</h2>
+            <p className="text-[18px] pt-1">
               Building custom, scalable Shopify apps tailored for business needs.
             </p>
           </div>
@@ -29,8 +29,8 @@ const Doing = () => {
             <BsFiletypeHtml className="text-4xl text-primary" />
           </div>
           <div>
-            <h2 className="md:text-lg font-bold">Shopify Theme Customization</h2>
-            <p className="text-[15px] pt-1">
+            <h2 className="md:text-xl font-bold text-primary">Shopify Theme Customization</h2>
+            <p className="text-[18px] pt-1">
               Customize Shopify themes for better UI, UX, and faster performance.
             </p>
           </div>
@@ -42,8 +42,8 @@ const Doing = () => {
             <TbReplace className="text-4xl text-primary" />
           </div>
           <div>
-            <h2 className="md:text-lg font-bold">Shopify Store Design / Redesign</h2>
-            <p className="text-[15px] pt-1">
+            <h2 className="md:text-xl font-bold text-primary">Shopify Store Design / Redesign</h2>
+            <p className="text-[18px] pt-1">
               Professional store design or redesign to make your brand stand out.
             </p>
           </div>
@@ -55,8 +55,8 @@ const Doing = () => {
             <LuReplace className="text-4xl text-primary" />
           </div>
           <div>
-            <h2 className="md:text-lg font-bold">Web Development</h2>
-            <p className="text-[15px] pt-1">
+            <h2 className="md:text-xl font-bold text-primary">Web Development</h2>
+            <p className="text-[18px] pt-1">
               Frontend & MERN stack development for modern, scalable web solutions.
             </p>
           </div>

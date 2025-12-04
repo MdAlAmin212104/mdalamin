@@ -4,7 +4,7 @@ const MyInfo = () => {
   return (
     <section>
   <Title title={"About Me"} />
-  <p className="pt-2 text-textGray text-[15px]">
+  <p className="pt-2 text-white text-[18px]">
     Hi, I’m Md. Al Amin Islam — Shopify App & Web Developer.
     I’m a passionate developer currently working on Shopify App Development, 
     Shopify Theme Customization, and Web Development. 
