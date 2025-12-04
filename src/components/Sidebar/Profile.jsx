@@ -1,4 +1,4 @@
-import ProfilePic from "../../assets/photo.png";
+import ProfilePic from "../../assets/photo.jpg";
 import { motion } from "framer-motion";
 const Profile = () => {
   return (
@@ -6,7 +6,7 @@ const Profile = () => {
       <div className="flex gap-6 lg:flex-col lg:gap-1 lg:justify-center items-center">
         <img
           src={ProfilePic}
-          className=" rounded-2xl w-[120px] h-[130px] lg:mx-auto"
+          className="rounded-2xl w-[130px] h-[130px] lg:mx-auto"
           alt="ProfilePic"
         />
         <div>

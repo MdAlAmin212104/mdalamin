@@ -6,7 +6,7 @@ const Loader = () => {
   const wordArray = message.split(" ");
   return (
     <div className=" h-screen bg-[#2a2826] flex justify-center items-center flex-col">
-      <div className="text-2xl md:text-3xl font-bold mb-2 text-white text-center">
+      <div className="text-2xl md:text-3xl font-bold mb-2 text-white text-center p-4">
         {wordArray.map((word, idx) => (
           <motion.span
             key={idx}
@@ -21,7 +21,7 @@ const Loader = () => {
           </motion.span>
         ))}
       </div>
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{
           opacity: 1,
@@ -30,7 +30,7 @@ const Loader = () => {
         transition={{ duration: 0.5 }}
       >
         <img className="w-1/2 mx-auto" src={loderGif} alt="loderGif" />
-      </motion.div>
+      </motion.div> */}
       <motion.div
         initial={{ opacity: 0, x: "-100vh" }}
         animate={{ opacity: 1, x: 0 }}
