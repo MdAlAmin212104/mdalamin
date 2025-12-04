@@ -1,4 +1,4 @@
-import ProfilePic from "../../assets/photo.jpg";
+import ProfilePic from "../../assets/photo.webp";
 import { motion } from "framer-motion";
 const Profile = () => {
   return (
