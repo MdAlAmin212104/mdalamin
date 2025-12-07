@@ -14,7 +14,7 @@ const skillsTools = ({heading}) => {
             <motion.img
               whileHover={{ scale: 1.1 }}
               src={getImgUrl(item.img)}
-              className=" w-full  duration-300 cursor-pointer md:w-[140px] md:h-[140px] bg-white rounded-2xl p-2"
+              className="w-full duration-300 cursor-pointer md:w-[140px] md:h-[140px] bg-white rounded-2xl p-2"
               alt=""
             />
             <h4 className="flex justify-center mt-3">{item?.name}</h4>

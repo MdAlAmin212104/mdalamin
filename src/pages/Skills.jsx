@@ -4,11 +4,11 @@ import { getImgUrl } from "../utils/getImageUrl";
 import { motion } from "framer-motion";
 
 const Skills = () => {
-  const {shopify, client, Server, Tools} = skillData;
+  const { shopify, client, Server, Tools } = skillData;
 
   return (
     <div>
-      <Title title={"Shopify"} />
+      <Title title={"Shopify Ecosystem"} />
       <div className="mt-9 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 justify-between gap-8 mb-12">
         {shopify?.map((item) => (
           <div key={item.id} className="flex flex-col justify-center items-center">
@@ -55,7 +55,7 @@ const Skills = () => {
       </div>
 
 
-<Title title={"Tools"} />
+      <Title title={"Tools"} />
       <div className="mt-9 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 justify-between gap-8 mb-12">
         {Tools?.map((item) => (
           <div key={item.id} className="flex flex-col justify-center items-center">

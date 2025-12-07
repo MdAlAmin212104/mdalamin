@@ -14,13 +14,13 @@ const Edu = () => {
 
       <div className="time-line-area flex flex-col gap-8">
         <div className="text-[15px] flex flex-col gap-1">
-          <h3 className=" font-bold ">Northern University Bangladesh, Bangladesh</h3>
-          <h3 className=" text-primary mt-1">October, 2025 - present</h3>
+          <h3 className=" font-bold text-[24px]">Northern University Bangladesh, Bangladesh</h3>
+          <h3 className=" text-primary mt-1 text-[18px]">October, 2025 - present</h3>
           <p>I'm currently studying CSE (Computer Science and Engineering)</p>
         </div>
         <div className="text-[15px] flex flex-col gap-1">
-  <h3 className="font-bold">Kurigram Polytechnic Institute, Kurigram</h3>
-  <h3 className="text-primary mt-1">June, 2020 - October, 2024</h3>
+  <h3 className="font-bold text-[24px]">Kurigram Polytechnic Institute, Kurigram</h3>
+  <h3 className="text-primary mt-1 text-[18px]">June, 2020 - October, 2024</h3>
   <p>I completed my Diploma in Computer Science and Technology.</p>
 </div>
 

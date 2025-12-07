@@ -89,3 +89,13 @@
     height: 90%;
   }
 }
+
+
+.project-skill {
+  background-color: #212122;
+  border: 1px solid #383838;
+  border-radius: 10px;
+  padding: 0px 10px;
+  display: inline-flex;
+  transition: border-color 0.3s;
+}

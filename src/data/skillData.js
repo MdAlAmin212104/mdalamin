@@ -53,7 +53,4 @@ const Tools = [
   { id: 11, img: "render.jpeg", name: "Render" },
 ];
 
-
-
-
 export default { shopify, client, Server, Tools };

@@ -29,6 +29,8 @@ const SingleProject = ({ projectId, onClose }) => {
     }
   };
 
+  console.log(project);
+
   return (
     <div className="modal-overlay" onClick={handleOutsideClick}>
       <section className="project-modal">
@@ -70,7 +72,11 @@ const SingleProject = ({ projectId, onClose }) => {
             </p>
             <p>
               <strong className="text-primary">Technologies:</strong>{" "}
-              {project?.tech}
+              {project?.tech?.map((tech) => (
+                <span key={tech} className="project-skill mr-2 mb-2">
+                  {tech}
+                </span>
+              ))}
             </p>
           </div>
           <button onClick={onClose} className="close-button">

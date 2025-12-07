@@ -18,17 +18,28 @@ const Experience = () => {
       </div>
       <div className="time-line-area flex flex-col gap-8">
         <div className="text-[15px] flex flex-col gap-1">
-          <h3 className=" font-bold ">Shopify Developer at SM Technology</h3>
-          <h3 className=" text-primary mt-1">Sep, 2024 - Present</h3>
+          <h3 className=" font-bold text-[24px]">Shopify Developer at SM Technology</h3>
+          <h3 className=" text-primary mt-1 text-[18px]">Sep, 2024 - Present</h3>
           <p>
             Working on Shopify store design and redesign based on client needs, along with
             custom Shopify app development.
           </p>
+          <ul>
+            <li>1 Developed and customized Shopify themes using Liquid, HTML, CSS, and JavaScript.</li>
+            <li>2 Worked on Shopify store design and redesign based on client requirements.</li>
+            <li>3 Assisted international clients in building fully customized Shopify stores.</li>
+            <li>4 Designed responsive, user-friendly, and conversion-focused store UI.</li>
+            <li>5 Specialized in Shopify theme customization and layout optimization.</li>
+            <li>6 Integrated third-party apps and APIs to enhance store functionality.</li>
+            <li>7 Integrated secure and reliable payment gateways.</li>
+            <li>8 Optimized website performance and ensured mobile responsiveness.</li>
+            <li>9 Collaborated with clients to understand their requirements and deliver tailored solutions.</li> 
+          </ul>
         </div>
 
         <div className="text-[15px] flex flex-col gap-1">
-          <h3 className=" font-bold ">Complete Web Development Course</h3>
-          <h3 className=" text-primary mt-1">Dec, 2023 - Jun, 2024</h3>
+          <h3 className="font-bold text-[24px]">Complete Web Development Course</h3>
+          <h3 className=" text-primary mt-1 text-[18px]">Dec, 2023 - Jun, 2024</h3>
           <p>
             I Completed the <strong>Complete Web Development</strong> by
             Programming Hero. I learn from this course HTML, CSS, JavaScript,
@@ -48,10 +59,10 @@ const Experience = () => {
           </a>
         </div>
         <div className="text-[15px] flex flex-col gap-1">
-          <h3 className="font-bold">
+          <h3 className="font-bold text-[24px]">
             Advance React and Next.js Course - Europena IT Ltd
           </h3>
-          <h3 className="text-primary mt-1">Jun, 2024 - Sep, 2024</h3>
+          <h3 className="text-primary mt-1 text-[18px]">Jun, 2024 - Sep, 2024</h3>
 
           <p>
             I learned Frontend Development using React and Next.js to enhance my
@@ -76,10 +87,10 @@ const Experience = () => {
 
 
         <div className="text-[15px] flex flex-col gap-1">
-          <h3 className="font-bold">
+          <h3 className="font-bold text-[24px]">
             Natinal Skills Development Authority (NSDA),  Level-3
           </h3>
-          <h3 className="text-primary mt-1">Jun, 2024 - Sep, 2024</h3>
+          <h3 className="text-primary mt-1 text-[18px]">Jun, 2024 - Sep, 2024</h3>
 
           <p>
             I learned web design and development for freelancing, including HTML, CSS,
